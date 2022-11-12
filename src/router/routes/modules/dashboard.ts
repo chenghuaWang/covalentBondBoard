@@ -22,6 +22,17 @@ const DASHBOARD: AppRouteRecordRaw = {
         roles: ['*'],
       },
     },
+    // TODO dash boards.
+    {
+      path: 'graphEditor',
+      name: 'graphEditor',
+      component: () => import('@/views/dashboard/graphEditor/index.vue'),
+      meta: {
+        locale: 'menu.dashboard.graphEditor',
+        requiresAuth: true,
+        roles: ['*'],
+      },
+    }
   ],
 };
 

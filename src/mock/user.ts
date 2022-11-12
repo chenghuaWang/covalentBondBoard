@@ -16,18 +16,18 @@ setupMock({
       if (isLogin()) {
         const role = window.localStorage.getItem('userRole') || 'admin';
         return successResponseWrap({
-          name: '王立群',
+          name: '飘逸的暴库专家',
           avatar:
             '//lf1-xgcdn-tos.pstatp.com/obj/vcloud/vadmin/start.8e0e4855ee346a46ccff8ff3e24db27b.png',
           email: 'wangliqun@email.com',
-          job: 'frontend',
-          jobName: '前端艺术家',
-          organization: 'Frontend',
-          organizationName: '前端',
-          location: 'beijing',
-          locationName: '北京',
-          introduction: '人潇洒，性温存',
-          personalWebsite: 'https://www.arco.design',
+          job: 'CV Research. PhD. HPC Scientist.',
+          jobName: 'HPC Scientist',
+          organization: 'NDIAVI',
+          organizationName: 'HPC big device',
+          location: 'Santa Barbara',
+          locationName: 'US',
+          introduction: '心之所向，素履以往，生如逆旅，一苇以航',
+          personalWebsite: 'https://hehe',
           phone: '150****0000',
           registrationDate: '2013-05-10 12:10:00',
           accountId: '15012312300',
